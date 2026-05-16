@@ -1,175 +1,225 @@
-# Stack-Survivor-Mini-Game
-# User vs The Stack
-
-**User vs The Stack** is a browser-based developer brawler where the player enters their own name and fights through waves of software-themed enemies. It runs directly in the browser with HTML, CSS, and JavaScript, so it is easy to host on GitHub Pages.
-
-## Play The Game
-
-Open `index.html` in a browser, enter your player name, and press **Play Now**.
-
-If this project is published with GitHub Pages, the game will be available at:
-
-```text
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/
+```
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║  ███████╗████████╗ █████╗  ██████╗██╗  ██╗                         ║
+║  ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝                         ║
+║  ███████╗   ██║   ███████║██║     █████╔╝                          ║
+║  ╚════██║   ██║   ██╔══██║██║     ██╔═██╗                          ║
+║  ███████║   ██║   ██║  ██║╚██████╗██║  ██╗                         ║
+║  ╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝                         ║
+║                                                                    ║
+║   ███████╗██╗   ██╗██████╗ ██╗   ██╗██╗██╗   ██╗ ██████╗ ██████╗   ║
+║   ██╔════╝██║   ██║██╔══██╗██║   ██║██║██║   ██║██╔═══██╗██╔══██╗  ║
+║   ███████╗██║   ██║██████╔╝██║   ██║██║██║   ██║██║   ██║██████╔╝  ║
+║   ╚════██║██║   ██║██╔══██╗╚██╗ ██╔╝██║╚██╗ ██╔╝██║   ██║██╔══██╗  ║
+║   ███████║╚██████╔╝██║  ██║ ╚████╔╝ ██║ ╚████╔╝ ╚██████╔╝██║  ██║  ║
+║   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═══╝   ╚═════╝ ╚═╝  ╚═╝  ║
+║                                                                    ║
+║        ⚔️  Fight the stack. Wave by wave. Or die trying.  ⚔️      ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
 
-Replace `YOUR-USERNAME` and `YOUR-REPOSITORY-NAME` with your actual GitHub username and repo name.
+<div align="center">
 
-## About The Game
+[![Play Now](https://img.shields.io/badge/🎮%20Play%20Now-Stack%20Survivor-FF6B6B?style=for-the-badge)](https://github.com/laraib776/Stack-Survivor-Mini-Game)
+![HTML5](https://img.shields.io/badge/HTML5-Canvas-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styled-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Mobile Ready](https://img.shields.io/badge/Mobile-Touch%20Ready-FF6B9D?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-C3B1E1?style=for-the-badge)
 
-The player is dropped into a wave-based arena and must survive against enemies from "the stack." Each wave introduces more pressure, stronger enemy combinations, and bigger threats.
+**[⭐ Star this repo](https://github.com/laraib776/Stack-Survivor-Mini-Game)** · **[🐛 Report a Bug](https://github.com/laraib776/Stack-Survivor-Mini-Game/issues)** · **[🚀 Play on GitHub Pages](#-deploy-to-github-pages)**
 
-The game includes:
+</div>
 
-- Custom player name input
-- Player initials shown on the character sprite
-- Moving enemies with different attack styles
-- Wave-based progression
-- Score, kills, wave, health, and high score tracking
-- Melee attack and ranged code blast
-- Mobile touch controls
-- Landscape prompt for mobile devices
-- Exit button during gameplay
-- No build tools or installation required
+---
 
-## Enemies
+## ✦ About The Game
 
-| Enemy | Behavior |
-| --- | --- |
-| AI Bot | Fast basic melee enemy that chases the player |
-| Stack Dev | Keeps distance and throws coffee projectiles |
-| Senior Eng. | Tankier enemy that charges hard |
-| ML Boss | Boss enemy that fires data projectiles and can spawn bots |
+> **[Stack Survivor](https://github.com/laraib776/Stack-Survivor-Mini-Game)** is a wave-based browser brawler where *you* are the hero.
+> Enter your name, watch your initials appear on your character sprite, and fight through increasingly brutal waves of software-themed enemies.
+>
+> No npm. No webpack. No build tools. Just open `index.html` and survive.
 
-## Controls
+---
 
-### Keyboard
+## 🕹️ Getting Started
 
-| Action | Key |
-| --- | --- |
-| Move | Left / Right arrows or A / D |
-| Jump | W, Up arrow, or Space |
-| Melee attack | Z |
-| Code blast | X |
-| Exit game | Exit button on screen |
+Open the game — it's one step from your browser to the battlefield:
 
-### Mobile
-
-Mobile controls appear on touch devices while playing:
-
-- Left button: move left
-- Right button: move right
-- Up button: jump
-- Z button: melee attack
-- X button: code blast
-
-For the best mobile experience, rotate the phone to landscape mode.
-
-## Project Structure
-
-```text
-USERvsDEV/
-├── index.html
-├── README.md
-├── css/
-│   └── styles.css
-├── js/
-│   └── game.js
-└── legacy/
-    ├── game-code-copy.html
-    └── lk-brawler (2).html
+```
+1. 📝  Open index.html in any modern browser
+2. ✏️   Type your player name
+3. ▶️   Hit  [ Play Now ]
+4. ⚔️   Survive as long as you can
 ```
 
-### Main Files
+> 🌐 **Hosted on GitHub Pages?** Your game will be live at:
+> ```
+> https://YOUR-USERNAME.github.io/Stack-Survivor-Mini-Game/
+> ```
 
-- `index.html` contains the game layout and menu screens.
-- `css/styles.css` contains all styling, responsive layout, buttons, overlays, and mobile presentation.
-- `js/game.js` contains the canvas game loop, player logic, enemy AI, collisions, scoring, waves, and controls.
-- `legacy/` keeps the older single-file HTML versions for reference.
+---
 
-## Run Locally
+## ⚔️ Enemy Roster
 
-Because this is a static browser game, you can run it without installing anything.
+Every wave brings a new threat. Know your enemies.
 
-### Option 1: Open Directly
+```
+  ╭─────────────────┬───────────────────────────────────────────────╮
+  │  Enemy          │  Behavior                                     │
+  ├─────────────────┼───────────────────────────────────────────────┤
+  │  🤖  AI Bot      │  Fast and relentless — charges straight at you│
+  │  ☕  Stack Dev   │  Keeps distance and lobs coffee projectiles   │
+  │  🔥  Senior Eng. │  Tanky powerhouse that shoulder-charges hard  │
+  │  🧠  ML Boss     │  Boss-tier: fires data blasts & spawns bots   │
+  ╰─────────────────┴───────────────────────────────────────────────╯
+```
 
-Open this file in your browser:
+---
 
-```text
+## 🎮 Controls
+
+### ⌨️ Keyboard
+
+```
+  ╭──────────────────────┬──────────────────────────────────────╮
+  │  Action              │  Key                                 │
+  ├──────────────────────┼──────────────────────────────────────┤
+  │  Move Left / Right   │  Arrow Keys  ·  or  A / D            │
+  │  Jump                │  W  ·  Up Arrow  ·  or  Space        │
+  │  Melee Attack        │  Z                                   │
+  │  Code Blast          │  X                                   │
+  │  Exit Game           │  Exit button (on screen)             │
+  ╰──────────────────────┴──────────────────────────────────────╯
+```
+
+### 📱 Mobile Touch Controls
+
+Touch controls appear automatically on mobile devices.
+> 💡 Rotate your phone to **landscape mode** for the best experience.
+
+```
+  [ ◀ Left ]  [ ▶ Right ]  [ ▲ Jump ]  [ Z Melee ]  [ X Blast ]
+```
+
+---
+
+## ✨ Features at a Glance
+
+| 🌟 Feature | Details |
+|---|---|
+| 🏷️ **Custom Player Name** | Your initials show up right on your character |
+| 🌊 **Wave Progression** | Enemies get harder, faster, and meaner each round |
+| 📊 **Live Stats** | Score · Kills · Wave · Health · High Score |
+| 👊 **Dual Combat** | Melee punch *and* ranged code blast |
+| 📱 **Touch Support** | Full mobile controls + landscape prompt |
+| 💾 **Persistent High Score** | Saved in browser via `localStorage` |
+| ⚡ **Zero Setup** | No install, no npm, no build step — just play |
+
+---
+
+## 📁 Project Structure
+
+```
+📦 Stack-Survivor-Mini-Game/
+ │
+ ├── 📄 index.html              ← Game canvas, menu & screen layouts
+ ├── 📄 README.md               ← You are here 👋
+ │
+ ├── 📂 css/
+ │    └── 🎨 styles.css         ← Styling, layout, buttons & mobile UI
+ │
+ ├── 📂 js/
+ │    └── ⚙️  game.js            ← Game loop, player, enemies, waves & input
+ │
+
+```
+
+---
+
+## 🚀 Run Locally
+
+No installation required. Pick whichever option suits you:
+
+**Option 1 — Open directly in browser**
+```bash
+# Just double-click or drag into your browser:
 index.html
 ```
 
-### Option 2: Use A Local Server
-
-If you prefer running it from a local server, use one of these commands from the project folder:
-
+**Option 2 — Serve with Python**
 ```bash
 python -m http.server 8000
+# Then visit: http://localhost:8000
 ```
 
-Then open:
+---
 
-```text
-http://localhost:8000
+##  🌍 Deploy to GitHub Pages
+
+```
+  Step 1 →  Create a new GitHub repository
+  Step 2 →  Upload:  index.html  ·  README.md  ·  css/  ·  js/  ·  legacy/
+  Step 3 →  Go to  Settings  →  Pages
+  Step 4 →  Source: Deploy from branch  ·  main  ·  / (root)
+  Step 5 →  Click Save  and wait ~60 seconds
+  Step 6 →  Visit your live Pages URL  🎉
 ```
 
-## Deploy To GitHub Pages
+> GitHub Pages automatically finds `index.html` at the root — no extra config needed.
 
-1. Create a new GitHub repository.
-2. Upload these project files to the repository:
-   - `index.html`
-   - `README.md`
-   - `css/`
-   - `js/`
-   - `legacy/` if you want to keep the old versions online too
-3. Go to the repository on GitHub.
-4. Open **Settings**.
-5. Open **Pages** from the left sidebar.
-6. Under **Build and deployment**, choose:
-   - **Source:** Deploy from a branch
-   - **Branch:** `main`
-   - **Folder:** `/root`
-7. Click **Save**.
-8. Wait for GitHub to publish the site.
-9. Open the Pages URL shown by GitHub.
+---
 
-The game should load automatically because GitHub Pages looks for `index.html` at the root of the repository.
+##  🎨 Customization Guide
 
-## Customization
+All tweakable values live inside `js/game.js`:
 
-You can customize the game by editing:
+| Constant | What it controls |
+|---|---|
+| `ETYPES` | Enemy health, speed & damage |
+| `WAVES` | Enemy composition per wave |
+| `WAVE_NAMES` | Wave announcement names |
+| `Player` | Movement speed, attacks & health |
+| `Enemy` | AI behavior & attack patterns |
 
-- Game title and menu text in `index.html`
-- Colors, layout, and button styles in `css/styles.css`
-- Enemy health, speed, damage, and score values in `js/game.js`
-- Wave names and enemy wave patterns in `js/game.js`
+For visual changes, edit `css/styles.css` (colors, layout, buttons) or `index.html` (menu text & titles).
 
-Useful areas in `js/game.js`:
+---
 
-- `ETYPES` controls enemy stats.
-- `WAVES` controls enemy wave composition.
-- `WAVE_NAMES` controls wave announcement names.
-- `Player` controls player movement, attacks, health, and drawing.
-- `Enemy` controls enemy behavior and attacks.
+## 🌐 Browser Support
 
-## Browser Support
+| Browser | Supported |
+|---|---|
+| ✅ Chrome | Full support |
+| ✅ Edge | Full support |
+| ✅ Firefox | Full support |
+| ✅ Safari | Full support |
 
-The game uses standard browser features:
+Uses only native web APIs — **HTML5 Canvas · CSS · Vanilla JS · localStorage**
 
-- HTML5 canvas
-- CSS
-- JavaScript
-- `localStorage` for player name and high score
+---
 
-It should work in modern versions of Chrome, Edge, Firefox, and Safari.
+##  📜 License
 
-## Notes
+This project is open source under the **MIT License** — free to use, modify, and share.
 
-- No external build system is required.
-- No package manager is required.
-- The game is designed to be hosted as a static site.
-- High scores are saved in the browser using `localStorage`, so scores are stored per device/browser.
+---
 
-## License
+<div align="center">
 
-You can add your preferred license here. If you want others to freely use, modify, and share the game, consider adding an MIT License.
+```
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║    No npm.  No webpack.  No meetings about meetings.     ║
+║                                                          ║
+║       Just you.  Against the stack.  Wave by wave.       ║
+║                                                          ║
+║   🔗  github.com/laraib776/Stack-Survivor-Mini-Game      ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+*Made with ❤️ · Drop a ⭐ if the stack didn't break you!*
+
+</div>
