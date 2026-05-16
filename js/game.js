@@ -1,4 +1,4 @@
-﻿// ── Setup ──
+// ── Setup ──
 const C=document.getElementById('c'), ctx=C.getContext('2d',{alpha:false});
 let GW=800, GH=450, GND=355, GRAV=0.55;
 let isMobile=false,isLandscape=true;
@@ -40,12 +40,20 @@ const P={
 };
 
 const keys={},jp={};
+function isTypingField(target){
+  return target?.matches?.('input, textarea, select, [contenteditable="true"]');
+}
+
 document.addEventListener('keydown',e=>{
+  if(isTypingField(e.target))return;
   if(!keys[e.code])jp[e.code]=true;
   keys[e.code]=true;
   if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space','KeyZ','KeyX','KeyW','KeyA','KeyD','KeyS'].includes(e.code))e.preventDefault();
 });
-document.addEventListener('keyup',e=>{keys[e.code]=false;});
+document.addEventListener('keyup',e=>{
+  if(isTypingField(e.target))return;
+  keys[e.code]=false;
+});
 
 let player,enemies,projs,parts,floats,gs,lastFrameTime=0,frameCount=0;
 const PLAYER_NAME_KEY='user_vs_dev_player_name';
