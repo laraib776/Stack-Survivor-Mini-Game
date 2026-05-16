@@ -56,7 +56,7 @@ Open the game — it's one step from your browser to the battlefield:
 
 > 🌐 **Hosted on GitHub Pages?** Your game will be live at:
 > ```
-> https://YOUR-USERNAME.github.io/Stack-Survivor-Mini-Game/
+> (https://laraib776.github.io/Stack-Survivor-Mini-Game/)**
 > ```
 
 ---
@@ -69,10 +69,10 @@ Every wave brings a new threat. Know your enemies.
   ╭─────────────────┬───────────────────────────────────────────────╮
   │  Enemy          │  Behavior                                     │
   ├─────────────────┼───────────────────────────────────────────────┤
-  │  🤖  AI Bot      │  Fast and relentless — charges straight at you│
-  │  ☕  Stack Dev   │  Keeps distance and lobs coffee projectiles   │
-  │  🔥  Senior Eng. │  Tanky powerhouse that shoulder-charges hard  │
-  │  🧠  ML Boss     │  Boss-tier: fires data blasts & spawns bots   │
+  │  🤖  AI Bot     │  Fast and relentless — charges straight at you│
+  │  ☕  Stack Dev  │  Keeps distance and lobs coffee projectiles   │
+  │  🔥  Senior Eng.│  Tanky powerhouse that shoulder-charges hard  │
+  │  🧠  ML Boss    │  Boss-tier: fires data blasts & spawns bots   │
   ╰─────────────────┴───────────────────────────────────────────────╯
 ```
 
@@ -215,7 +215,7 @@ This project is open source under the **MIT License** — free to use, modify, a
 ║                                                          ║
 ║       Just you.  Against the stack.  Wave by wave.       ║
 ║                                                          ║
-║   🔗  github.com/laraib776/Stack-Survivor-Mini-Game      ║
+║  🔗  laraib776.github.io/Stack-Survivor-Mini-Game        ║
 ║                                                          ║
 ╚══════════════════════════════════════════════════════════╝
 ```
